@@ -41,7 +41,9 @@
                                             <tr class="border-b border-gray-200 hover:bg-gray-100">
                                                 <td class="py-3 px-6 text-left whitespace-nowrap">
                                                     <div class="flex items-center">
-                                                    
+                                                        <div class="mr-2">
+                                                            <img class="w-10 h-10 rounded-full" src="{{asset($product->featured_img_url)}}" alt="">
+                                                        </div>
                                                         <span class="font-medium">{{ str_pad($product->id,4,0,STR_PAD_LEFT)}}</span>
                                                     </div>
                                                 </td>

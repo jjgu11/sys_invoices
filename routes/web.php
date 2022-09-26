@@ -36,3 +36,5 @@ Route::middleware([
 ])->group(function () {
     Route::resource('/products', ProductController::class);
 });
+
+
